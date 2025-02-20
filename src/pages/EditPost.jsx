@@ -31,7 +31,7 @@ function EditPost() {
             <PostForm post={post} />
           </div>
         ) : (
-          <p className="text-center text-gray-500">Loading...</p>
+          <p className="text-center text-gray-300">Loading...</p>
         )}
       </Container>
     </div>

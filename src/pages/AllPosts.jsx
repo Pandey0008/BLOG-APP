@@ -17,7 +17,7 @@ function AllPosts() {
   return (
     <div className="w-full py-6">
       <Container>
-        <h1 className="text-2xl font-bold text-center text-white-800 mb-6">
+        <h1 className="text-2xl font-bold text-center text-white mb-6">
           All Posts
         </h1>
 
@@ -26,7 +26,7 @@ function AllPosts() {
           {posts.length > 0 ? (
             posts.map((post) => <PostCard key={post.$id} {...post} />)
           ) : (
-            <p className="text-center col-span-full text-gray-500">
+            <p className="text-center col-span-full text-white">
               No posts available.
             </p>
           )}
