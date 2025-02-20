@@ -14,10 +14,8 @@ export default function RTE({name, control, label, defaultValue =""}) {
     render={({field: {onChange}}) => (
         <Editor
         apiKey='pwxwsmpu644q8tsfh9sw2t4yhps7yjnbx39mneozuds1jdto'
-        
         initialValue={defaultValue}
         init={{
-          script_url: "https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.8.2/tinymce.min.js",
             initialValue: defaultValue,
             height: 500,
             menubar: true,

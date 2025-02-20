@@ -57,7 +57,7 @@ export default function Post() {
 
                 {/* Title Section */}
                 <div className="w-full mb-4 px-4">
-                    <h1 className="text-lg sm:text-2xl font-bold text-gray-900">{post.title}</h1>
+                    <h1 className="text-lg sm:text-2xl font-bold text-white">{post.title}</h1>
                 </div>
 
                 {/* Content Section */}
