@@ -19,6 +19,7 @@ export default function RTE({name, control, label, defaultValue =""}) {
             initialValue: defaultValue,
             height: 500,
             menubar: true,
+            readonly: false,  // 👈 Ensure it's set to false
             plugins: [
                 "image",
                 "advlist",
