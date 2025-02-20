@@ -95,7 +95,6 @@ export default function PostForm({ post }) {
             {/* Right Column: Image Upload, Status, Button */}
             <div className="w-full sm:w-1/3 px-2">
                 <Input
-                    label="Featured Image :"
                     type="file"
                     className="mb-4"
                     accept="image/png, image/jpg, image/jpeg, image/gif"
